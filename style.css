@@ -416,3 +416,39 @@ body.dark-mode #projects article {
 body.dark-mode #skills li:hover {
     border-color: #38bdf8;
 }
+/* ================================
+   ACCESSIBILITY & BUTTON IMPROVEMENTS
+================================ */
+
+
+#contact a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+
+#contact a:hover {
+
+    background-color: #7dd3fc;
+
+    transform: translateY(-3px);
+
+}
+
+
+
+/* Dark mode GitHub button */
+
+body.dark-mode #contact a {
+
+    background-color: #38bdf8;
+
+    color: #0f172a;
+
+}
