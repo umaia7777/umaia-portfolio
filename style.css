@@ -71,3 +71,51 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* Buttons */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #1d4ed8;
+}
+
+/* Project cards */
+article {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #home {
+        padding: 40px 10px;
+    }
+}
