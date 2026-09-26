@@ -452,3 +452,22 @@ body.dark-mode #contact a {
     color: #0f172a;
 
 }
+/* Dark mode toggle button */
+
+#theme-toggle {
+
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease;
+
+}
+
+
+#theme-toggle:hover {
+
+    transform: rotate(20deg) scale(1.1);
+
+}

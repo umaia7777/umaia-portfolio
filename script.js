@@ -1,15 +1,6 @@
 // Dark mode toggle functionality
 
-const themeButton = document.createElement("button");
-
-themeButton.textContent = "🌙 Dark Mode";
-
-themeButton.setAttribute(
-    "aria-label",
-    "Toggle dark mode"
-);
-
-document.body.appendChild(themeButton);
+const themeButton = document.getElementById("theme-toggle");
 
 
 themeButton.addEventListener("click", function () {
@@ -19,11 +10,11 @@ themeButton.addEventListener("click", function () {
 
     if (document.body.classList.contains("dark-mode")) {
 
-        themeButton.textContent = "☀️ Light Mode";
+        themeButton.textContent = "☀️";
 
     } else {
 
-        themeButton.textContent = "🌙 Dark Mode";
+        themeButton.textContent = "🌙";
 
     }
 
@@ -42,6 +33,3 @@ if (footer) {
         `&copy; ${year} Umaia Islam Athay. All rights reserved.`;
 
 }
-
-
-console.log("Portfolio website loaded successfully.");
